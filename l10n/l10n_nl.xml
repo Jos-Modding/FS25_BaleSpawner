@@ -1,0 +1,11 @@
+<l10n>
+    <elements>
+        <e k="constructionTab_buyingPoints" v="Kooppunten"/>
+        <e k="shopItem_baleSpawner" v="Balenwinkel"/>
+        <e k="shopItem_baleSpawner_free" v="Balenwinkel (gratis)"/>
+        <e k="function_baleSpawner" v="Een plaatsbase balenwinkel."/>
+        <e k="function_baleSpawner_free" v="Een plaatsbase balenwinkel. Alle balen kosten €0"/>
+        <e k="description_baleSpawner" v="Selecteer type en formaat"/>
+        <e k="trigger_baleSpawner" v="Open winkel"/>
+    </elements>
+</l10n>

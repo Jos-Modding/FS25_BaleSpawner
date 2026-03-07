@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
 <placeable type="baleBuyingStation" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/placeable.xsd">
     <storeData>
-        <name>$l10n_shopItem_baleSpawner</name>
+        <name>$l10n_shopItem_baleSpawner_free</name>
         <functions>
-            <function>$l10n_function_baleSpawner</function>
+            <function>$l10n_function_baleSpawner_free</function>
         </functions>
         <image>store/store_baleSpawner.dds</image>
-        <price>10000</price>
+        <price>0</price>
         <dailyUpkeep>0</dailyUpkeep>
         <canBeSold>true</canBeSold>
         <showInStore>true</showInStore>
@@ -80,33 +80,33 @@
             <spawnPlace startNode="spawnPlaceStart02" endNode="spawnPlaceEnd02"/>
         </spawnPlaces>
 
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound125.xml" price="750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound150.xml" price="1000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare220.xml" price="1500" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare240.xml" price="1750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound125.xml" price="750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound150.xml" price="1000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare220.xml" price="1500" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare240.xml" price="1750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound125.xml" price="750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound150.xml" price="1000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare220.xml" price="1500" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare240.xml" price="1750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound125.xml" price="750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound150.xml" price="1000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare180.xml" price="1250" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare220.xml" price="1500" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare240.xml" price="1750" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_cottonRound238.xml" price="5000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_cottonSquare488.xml" price="10000" transportCosts="0" />
-        <storeItem xmlFilename="xml/objects/bales/buyableBales_biomassRound125.xml" price="750" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound125.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound150.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassRound180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare220.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_dryGrassSquare240.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound125.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound150.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassRound180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare220.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_grassSquare240.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound125.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound150.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageRound180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare220.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_silageSquare240.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound125.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound150.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawRound180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare180.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare220.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_strawSquare240.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_cottonRound238.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_cottonSquare488.xml" price="0" transportCosts="0" />
+        <storeItem xmlFilename="xml/objects/bales/buyableBales_biomassRound125.xml" price="0" transportCosts="0" />
     </vehicleBuyingStation>
 
     <i3dMappings>

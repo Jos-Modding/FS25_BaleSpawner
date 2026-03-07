@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="multipleItemPurchase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/vehicle.xsd">
+    <storeData>
+        <name params="$l10n_fillType_straw">%s 150 cm</name>
+        <functions>
+            <function>$l10n_function_bales</function>
+        </functions>
+        <image>store/store_buyableBales_strawRound.dds</image>
+        <price>1000</price>
+        <lifetime>600</lifetime>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <showInStore>false</showInStore>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <category>bales</category>
+        <financeCategory>PURCHASE_BALES</financeCategory>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_storeItem_roundBaleWheat</typeDesc>
+        <filename>$data/objects/multiPurchaseItem/multiPurchaseItem.i3d</filename>
+        <size width="2.5" length="2.5" height="3.6"/>
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="10" mass="100"/>
+        </components>
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypes="STRAW" capacity="7500" />
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <multipleItemPurchase filename="$data/objects/bales/roundbales/roundbale150/roundbale150.xml" fillType="STRAW" baleVariationId="NETWRAP">
+        <offsets>
+            <offset amount="1" offset="0 0 0"/>
+        </offsets>
+        <itemPositions>
+            <itemPosition position="0 0 0" rotation="-90 0 0"/>
+        </itemPositions>
+    </multipleItemPurchase>
+
+    <multipleItemPurchaseAmountConfigurations>
+        <multipleItemPurchaseAmountConfiguration name="1" price="0"/>
+    </multipleItemPurchaseAmountConfigurations>
+</vehicle>
