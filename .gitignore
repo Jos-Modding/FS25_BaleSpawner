@@ -3,6 +3,5 @@ _*
 *.md
 !README.md
 *.zip
-screenshots
 
 # git archive -o FS25_BaleSpawner.zip HEAD
