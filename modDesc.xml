@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<modDesc descVersion="106">
+    <author>Jos</author>
+    <version>1.0.0.0</version>
+    <title>
+        <en>Bale Spawner</en>
+    </title>
+    <description>
+        <en><![CDATA[Introducing the first bale shop for all platforms]]></en>
+    </description>
+    <iconFilename>icon_template.dds</iconFilename>
+    <multiplayer supported="true"/>
+    <l10n filenamePrefix="l10n/l10n"/>
+    <placeableTypes>
+        <type name="baleBuyingStation" parent="simplePlaceable" filename="$dataS/scripts/placeables/Placeable.lua">
+            <specialization name="vehicleBuyingStation" />
+        </type>
+    </placeableTypes>
+    <storeItems>
+        <!-- Placeables -->
+        <storeItem xmlFilename="xml/placeables/baleSpawner.xml"/>
+        <!-- Rectangular bales -->
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_drygrass_120.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_drygrass_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_drygrass_220.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_drygrass_240.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_grass_120.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_grass_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_grass_220.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_grass_240.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_silage_120.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_silage_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_silage_220.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_silage_240.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_straw_120.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_straw_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_straw_220.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableSquarebale_straw_240.xml"/>
+        <!-- Round bales -->
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_drygrass_125.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_drygrass_150.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_drygrass_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_grass_125.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_grass_150.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_grass_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_silage_125.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_silage_150.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_silage_180.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_straw_125.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_straw_150.xml"/>
+        <storeItem xmlFilename="xml/objects/bales/buyableRoundbale_straw_180.xml"/>
+    </storeItems>
+</modDesc>

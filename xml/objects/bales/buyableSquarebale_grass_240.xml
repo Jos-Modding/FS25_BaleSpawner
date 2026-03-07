@@ -1,0 +1,56 @@
+﻿<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<vehicle type="multipleItemPurchase" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="https://validation.gdn.giants-software.com/xml/fs25/vehicle.xsd">
+    <annotation>Copyright (C) GIANTS Software GmbH, All Rights Reserved.</annotation>
+
+    <storeData>
+        <name>$l10n_storeItem_squareBaleGrass_240</name>
+        <specs>
+            <weight minValue="0" />
+        </specs>
+        <functions>
+            <function>$l10n_function_bales</function>
+        </functions>
+        <image>$data/objects/buyableBales/store_buyableBales_grass.png</image>
+        <price>1536</price>
+        <lifetime>600</lifetime>
+        <allowLeasing>false</allowLeasing>
+        <canBeSold>false</canBeSold>
+        <rotation>0</rotation>
+        <brand>NONE</brand>
+        <category>bales</category>
+        <vertexBufferMemoryUsage>512</vertexBufferMemoryUsage>
+        <indexBufferMemoryUsage>256</indexBufferMemoryUsage>
+        <textureMemoryUsage>65536</textureMemoryUsage>
+        <instanceVertexBufferMemoryUsage>0</instanceVertexBufferMemoryUsage>
+        <instanceIndexBufferMemoryUsage>0</instanceIndexBufferMemoryUsage>
+        <financeCategory>PURCHASE_BALES</financeCategory>
+
+        <storeIconRendering>
+            <settings cameraXRot="-15" cameraYRot="25" />
+        </storeIconRendering>
+        <audioMemoryUsage>0</audioMemoryUsage>
+    </storeData>
+
+    <base>
+        <typeDesc>$l10n_storeItem_squareBaleWheat</typeDesc>
+        <filename>$data/objects/multiPurchaseItem/multiPurchaseItem.i3d</filename>
+        <size width="2.5" length="2.5" height="3.6"/>
+        <components>
+            <component centerOfMass="0 0 0" solverIterationCount="10" mass="100"/>
+        </components>
+    </base>
+
+    <fillUnit>
+        <fillUnitConfigurations>
+            <fillUnitConfiguration>
+                <fillUnits>
+                    <fillUnit shopDisplayUnit="CUBICMETER" fillTypes="GRASS_WINDROW" capacity="8000" />
+                </fillUnits>
+            </fillUnitConfiguration>
+        </fillUnitConfigurations>
+    </fillUnit>
+
+    <multipleItemPurchase filename="$data/objects/bales/squarebales/squarebale240/squarebale240.xml" fillType="GRASS_WINDROW" baleVariationId="TWINE">
+    </multipleItemPurchase>
+
+</vehicle>

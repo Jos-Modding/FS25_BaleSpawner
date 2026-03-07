@@ -1,0 +1,6 @@
+<l10n>
+    <elements>
+        <e k="shopItem_baleSpawner" v="Bale Spawner"/>
+        <e k="function_baleSpawner" v="This does that"/>
+    </elements>
+</l10n>
