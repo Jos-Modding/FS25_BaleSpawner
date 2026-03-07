@@ -36,7 +36,7 @@
         </fillUnitConfigurations>
     </fillUnit>
 
-    <multipleItemPurchase filename="$data/objects/bales/roundbales/cotton/cottonBale238.xml" fillType="COTTON" baleVariationId="DEFAULT">
+    <multipleItemPurchase filename="$data/objects/bales/roundbales/cotton/cottonBale238.xml" fillType="COTTON" baleVariationId="FOILWRAP">
         <offsets>
             <offset amount="1" offset="0 0 0"/>
         </offsets>

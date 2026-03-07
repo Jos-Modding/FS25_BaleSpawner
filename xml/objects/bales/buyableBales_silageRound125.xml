@@ -36,7 +36,7 @@
         </fillUnitConfigurations>
     </fillUnit>
 
-    <multipleItemPurchase filename="$data/objects/bales/roundbales/roundbale125/roundbale125.xml" fillType="SILAGE" baleIsWrapper="true" baleVariationId="NETWRAP">
+    <multipleItemPurchase filename="$data/objects/bales/roundbales/roundbale125/roundbale125.xml" fillType="SILAGE" baleIsWrapped="true" baleVariationId="NETWRAP">
         <offsets>
             <offset amount="1" offset="0 0 0"/>
         </offsets>
