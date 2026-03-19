@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8" standalone="no" ?>
-<modDesc descVersion="106">
+<modDesc descVersion="107">
     <author>Jos</author>
     <version>1.0.0.0</version>
     <title>
@@ -13,12 +13,12 @@
 The shop offers a wide variety of bales either paid or for free.
 
 Bale Spawner
-Category: Buildings > Buying Points
+Category: Buildings > Tols
 Price: $10,000
 Monthly upkeep: $0
 
 Bale Spawner (free)
-Category: Buildings > Buying Points
+Category: Buildings > Tools
 Price: $0
 Monthly upkeep: $0
 All bales: $0
@@ -29,12 +29,12 @@ All bales: $0
 Der Laden bietet eine große Auswahl an Ballen an, die entweder bezahlt oder kostenlos sind.
 
 Bale Spawner
-Category: Gebäude > Kaufpunkte
+Category: Gebäude > Geräte
 Preis: 10.000€
 Monatliche Unterhaltskosten: 0€
 
 Bale Spawner (free)
-Category: Gebäude > Kaufpunkte
+Category: Gebäude > Geräte
 Preis: 0€
 Monatliche Unterhaltskosten: 0€
 Alle Ballen: 0€
@@ -49,9 +49,6 @@ Alle Ballen: 0€
             <specialization name="vehicleBuyingStation" />
         </type>
     </placeableTypes>
-    <constructionCategories>
-        <tab name="buyingPoints" title="$l10n_constructionTab_buyingPoints" categoryName="buildings" />
-    </constructionCategories>
     <storeItems>
         <!-- Placeables -->
         <storeItem xmlFilename="xml/placeables/baleSpawner.xml"/>

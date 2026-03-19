@@ -1,6 +1,5 @@
 <l10n>
     <elements>
-        <e k="constructionTab_buyingPoints" v="Buying Points"/>
         <e k="shopItem_baleSpawner" v="Bale Spawner"/>
         <e k="shopItem_baleSpawner_free" v="Bale Spawner (free)"/>
         <e k="function_baleSpawner" v="A placeable bale shop."/>

@@ -18,7 +18,7 @@
         <brush>
             <type>placeable</type>
             <category>buildings</category>
-            <tab>buyingPoints</tab>
+            <tab>tools</tab>
         </brush>
     </storeData>
 
